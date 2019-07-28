@@ -62,9 +62,19 @@ h2 {
 }
 
 .next-quote {
-  color: #f84342;
+  color: white;
   font-family: 'quicksanditalic', sans-serif;
   font-size: 20px;
+}
+
+.next_quote_bttn {
+  border-radius: 12px;
+  background-color: red;
+}
+
+.next-quote:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .footer-blurb {

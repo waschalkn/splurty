@@ -32,7 +32,7 @@
       <div class="col-10 offset-1 offset-sm-0 col-sm-5 links">
         <!-- Button trigger modal -->
         <%= link_to 'Contribute', '#', data: {toggle: 'modal', target: '#myModal'} %>
-        &nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;
         <%= link_to 'About', about_path %>
       </div>
     </header>
@@ -81,7 +81,9 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-6">
-          <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
+          <button type="button" class="next_quote_bttn">
+          <%= link_to "Show me more quotes!", root_path, class: 'next-quote' %>
+        </button>
         </div>
 
         <div class="col-12 col-sm-6 footer-blurb">
